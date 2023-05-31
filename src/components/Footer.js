@@ -152,8 +152,18 @@ export default function Footer() {
               rel="noopener"
               color="inherit"
             >
-              {"0xgingi"}
+              {"0xgingi  "}
             </Link>
+            | Now Available on {" "}
+            <Link
+              href="https://github.com/0xGingi/encrypt/releases/download/v1.0/encrypt.0xgingi.apk"
+              target="_blank"
+              rel="noopener"
+              color="inherit"
+            >
+              {"Android"}
+            </Link>
+
           </Typography>
 
           <Chip

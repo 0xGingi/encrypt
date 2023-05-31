@@ -36,7 +36,6 @@ export default function NavAppBar() {
               <a href="/">
                 <img src="/assets/images/logo.png" alt="logo" width="100" />
               </a>
-              <VersionBadge />
             </Typography>
 
             <IconButton
