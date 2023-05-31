@@ -34,17 +34,13 @@ export default function NavAppBar() {
           <Toolbar>
             <Typography variant="h6" className={classes.logo}>
               <a href="/">
-                <img src="/assets/images/logo.png" alt="logo" width="40" />
+                <img src="/assets/images/logo.png" alt="logo" width="100" />
               </a>
               <VersionBadge />
             </Typography>
 
-            <Button color="inherit" href="/about/" className={classes.button}>
-              {t("about")}
-            </Button>
-
             <IconButton
-              href="https://github.com/sh-dv/hat.sh"
+              href="https://github.com/0xgingi/encrypt"
               target="_blank"
               rel="noopener"
             >

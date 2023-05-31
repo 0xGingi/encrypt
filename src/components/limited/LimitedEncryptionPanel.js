@@ -572,7 +572,7 @@ const LimitedEncryptionPanel = () => {
             src="/assets/images/logo2.png"
             width="100"
             height="100"
-            alt="hat.sh logo"
+            alt="0xgingi logo"
           />
           <br />
           {t("drop_file_enc")}

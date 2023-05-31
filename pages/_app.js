@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>
-          {"Hat.sh"}
+          {"0xGingi Encrypt"}
           {" - "}
           {t("sub_title")}
         </title>

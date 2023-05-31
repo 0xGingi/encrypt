@@ -45,25 +45,7 @@ const Language = () => {
             </MenuItem>
           ))}
         </Select>
-      </FormControl>
-
-      <Hidden xsDown>
-        <Alert
-          className={classes.formControl}
-          severity="info"
-          action={
-            <Button
-              href="https://github.com/sh-dv/hat.sh/blob/master/TRANSLATION.md"
-              target="_blank"
-            >
-              {t("guide")}
-            </Button>
-          }
-        >
-          {t("help_translate")}
-        </Alert>
-      </Hidden>
-    </>
+      </FormControl>    </>
   );
 };
 

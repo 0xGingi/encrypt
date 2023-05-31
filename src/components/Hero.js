@@ -24,7 +24,7 @@ export default function Hero() {
         gutterBottom
         className={classes.heroTitle}
       >
-        {"Hat.sh"}
+        {"encrypt.0xgingi.com"}
       </Typography>
       <Typography
         variant="subtitle1"

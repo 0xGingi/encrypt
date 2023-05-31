@@ -57,11 +57,6 @@ const Settings = () => {
       >
         <DialogTitle id="alert-dialog-title">{t('settings')}</DialogTitle>
         <DialogContent>
-          <DialogContentText id="alert-dialog-description">
-            {t('change_language')} :
-          </DialogContentText>
-
-          <Language />
 
           <DialogContentText
             id="alert-dialog-description"

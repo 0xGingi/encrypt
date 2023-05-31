@@ -96,7 +96,7 @@ export const DarkMode = () => {
         setchecked(true)
       } else {
         localStorage.setItem("darkTheme", "0");
-        document.querySelector("html").classList.remove("darkStyle");
+        document.querySelector("html").classList.add("darkStyle");
         setchecked(false)
       }
     }

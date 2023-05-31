@@ -102,17 +102,7 @@ export default function Footer() {
     {
       type: "monero",
       alt: "xmr",
-      addr: "84zQq4Xt7sq8cmGryuvWsXFMDvBvHjWjnMQXZWQQRXjB1TgoZWS9zBdNcYL7CRbQBqcDdxr4RtcvCgApmQcU6SemVXd7RuG",
-    },
-    {
-      type: "bitcoin",
-      alt: "btc",
-      addr: "bc1qlfnq8nu2k84h3jth7a27khaq0p2l2gvtyl2dv6",
-    },
-    {
-      type: "ethereum",
-      alt: "eth",
-      addr: "0xF6F204B044CC73Fa90d7A7e4C5EC2947b83b917e",
+      addr: "46pdzdKAvivYbYLeH6A3qc8Xqh5Kuce7CabChP6e385N44X4qNbSTUBRDTrFzfak9iGvMQStL4yefKgWZX1DwBZM5psq8TB",
     },
   ];
 
@@ -155,14 +145,14 @@ export default function Footer() {
       <footer className={classes.footer}>
         <Container maxWidth="sm">
           <Typography variant="body1">
-            Built and developed by{" "}
+            Ran by {" "}
             <Link
-              href="https://github.com/sh-dv"
+              href="https://github.com/0xgingi"
               target="_blank"
               rel="noopener"
               color="inherit"
             >
-              {"sh-dv"}
+              {"0xgingi"}
             </Link>
           </Typography>
 
@@ -199,7 +189,7 @@ export default function Footer() {
             <DialogContent>
               <Hidden xsDown>
                 <DialogContentText style={{ textAlign: "center" }}>
-                  Hat.sh is an open-source application. The project is
+                  0xGingi Encrypt is an open-source application. The project is
                   maintained in my free time. Donations of any size are
                   appreciated.
                 </DialogContentText>
@@ -271,17 +261,6 @@ export default function Footer() {
               ))}
             </DialogContent>
             <DialogActions>
-              <Button
-                style={{ marginBottom: 1 }}
-                href="https://ko-fi.com/shdvapps"
-                target="_blank"
-              >
-                <img
-                  src="/assets/icons/ko-fi.png"
-                  width="200"
-                  alt="open collective"
-                ></img>
-              </Button>
               <div style={{ flex: "1 0 0" }} />
               <Button onClick={handleClose} color="primary">
                 {t("close")}
