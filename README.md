@@ -6,6 +6,7 @@
 <a href="https://encrypt.0xgingi.com" style="color:#000"><h3 align="center">encrypt.0xgingi.com</h3></a>
 
 ---
+Android APK: https://github.com/0xGingi/encrypt/releases/download/v1.0/encrypt.0xgingi.apk
 
 a web app that provides secure local file encryption in the browser. It's fast, secure, and uses modern cryptographic algorithms with chunked AEAD stream encryption/decryption.
 
